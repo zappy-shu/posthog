@@ -78,6 +78,8 @@ function createEntry(entry) {
                     // Apply rule for .sass, .scss or .css files
                     test: /\.(sa|sc|c)ss$/,
 
+                    // COMMENT CHANGE
+
                     // Set loaders to transform files.
                     // Loaders are applying from right to left(!)
                     // The first loader will be applied after others
